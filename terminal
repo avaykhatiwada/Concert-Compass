@@ -1,0 +1,8 @@
+mkdir event-management-system
+cd event-management-system
+mkdir backend frontend
+cd backend
+npm init -y 
+cd ../frontend
+npx create-react-app .
+npm install @material-ui/core @material-ui/icons axios react-router-dom chart.js react-chartjs-2 
